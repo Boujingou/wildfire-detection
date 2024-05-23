@@ -6,6 +6,7 @@ Welcome to the Wildfire Detection Research repository! This repository hosts the
 </p>
 
 ---
+# Run Fire Detection
 
 ## Streamlit App
 

@@ -1,27 +1,48 @@
+# Como rodar o aplicativo
+Recomendado utilizar uma maquina virtual para garantir que as dependencias vão estar corretas.
+Toda a preparação é feita pelo terminal aberto na pasta principal do projeto.
+
+### 1- Instale o Python 3.12.3
+https://www.python.org/downloads/release/python-3123/
+
+### 2- Instale o virtual environment
+```powershell
+pip install virtualenv
+```
+
+### 3- Crie o seu ambiente virtual com nome venv
+```powershell
+py -3.12 -m venv venv 
+```
+
+### 4- Ative o ambiente virtual
+```powershell
+venv/Scripts/activate
+```
+
+### 5- Verifique se o ambiente virtual foi criado na versão 3.12.3
+```powershell
+python --version
+```
+
+### 6- Instale as dependencias
+```powershell
+pip install -r requirements.txt
+```
+
+### 7- Execute a aplicação com o streamlit
+```powershell
+streamlit run .\1_🔥_Home.py
+```
+
+---
+
 # Wildfire Detection
 Welcome to the Wildfire Detection Research repository! This repository hosts the code and resources related to our research on leveraging computer vision for fire detection. Our aim is to contribute to wildfire prevention efforts by developing and training an object detection model to accurately identify instances of fire and smoke in images.
 
 <p align="center">
   <img src="src/intro-gif.gif" alt="gif" width = 800>
 </p>
-
----
-# Run Fire Detection
-
-## Streamlit App
-
-For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. 
-
-#### To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
-
-<p align="center">
-  <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
-</p>
-<div align="center">
-  Wildfire Detection App
-</div>
-
----
 
 ## Highlights:
 
@@ -90,29 +111,6 @@ The trained YOLOv8 model demonstrated impressive performance on the D-Fire test 
 | Medium      | 0.801  |     1.532      |
 | Large       | 0.812  |     2.342      |
 | Extra Large | 0.814  |     3.465      |
-
-#### For a detailed exploration of our training process and insights, we invite you to read our comprehensive guide on Medium: [Stay Ahead of the Flames: A Comprehensive Guide to Wildfire Prevention with YOLOv8](https://medium.com/institute-of-smart-systems-and-ai/stay-ahead-of-the-flames-a-comprehensive-guide-to-wildfire-prevention-with-yolov8-3eb8edd1121a)
-
----
-
-## Future Implications
-
-This research underscores the potential of computer vision in addressing real-world challenges, such as wildfire detection. As technology evolves, integrating machine learning tools into wildfire prevention and emergency response strategies could significantly enhance our ability to detect and mitigate wildfires effectively.
-
----
-
-## Disclaimer
-
-Please note that while our Streamlit app demonstrates the capabilities of our model, it is intended for demonstration purposes and may not be suitable for critical wildfire detection applications.
-
----
-## Acknowledgment
-
-I would like to acknowledge the Institute of Smart Systems and Artificial Intelligence ([ISSAI](https://issai.nu.edu.kz)) at Nazarbayev University for fostering an environment of innovation and research excellence. The support I received from ISSAI has been integral to the successful completion of this endeavor.
-
-I extend my heartfelt appreciation to my supervisor, [Askat Kuzdeuov](https://www.linkedin.com/in/askatkuzdeuov/), at ISSAI, whose guidance and mentorship were indispensable to the success of this research. His expertise and support have been invaluable in shaping the direction and quality of this work.
-
-I would also like to extend my thanks to the creators of the [D-Fire dataset](https://github.com/gaiasd/DFireDataset) for providing a valuable resource that underpins the foundation of this research. Additionally, the [Ultralytics](https://github.com/ultralytics/ultralytics) team's contribution to the YOLOv8 model has been instrumental in enabling accurate and efficient fire detection.
 
 ---
 

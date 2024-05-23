@@ -5,6 +5,24 @@ Welcome to the Wildfire Detection Research repository! This repository hosts the
   <img src="src/intro-gif.gif" alt="gif" width = 800>
 </p>
 
+---
+# Run Fire Detection
+
+## Streamlit App
+
+For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. 
+
+#### To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
+
+<p align="center">
+  <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
+</p>
+<div align="center">
+  Wildfire Detection App
+</div>
+
+---
+
 ## Highlights:
 
 - Trained YOLOv8 model using the D-Fire dataset for accurate fire and smoke detection.
@@ -80,21 +98,6 @@ The trained YOLOv8 model demonstrated impressive performance on the D-Fire test 
 ## Future Implications
 
 This research underscores the potential of computer vision in addressing real-world challenges, such as wildfire detection. As technology evolves, integrating machine learning tools into wildfire prevention and emergency response strategies could significantly enhance our ability to detect and mitigate wildfires effectively.
-
----
-
-## Streamlit App
-
-For a practical demonstration of our research, you can interact with our Wildfire Detection App, powered by the YOLOv8 model. This app allows you to upload images and observe the model's detection capabilities in action. 
-
-#### To experience the app, visit: [Wildfire Detection App](https://wildfire-detection.streamlit.app)
-
-<p align="center">
-  <img src="src/streamlit-merged.png" alt="Streamlit App" width = 600>
-</p>
-<div align="center">
-  Wildfire Detection App
-</div>
 
 ---
 

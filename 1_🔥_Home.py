@@ -11,7 +11,7 @@ import io
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 # Function to load the YOLO model
-@st.cache_resource
+@st.cache
 def load_model(model_path):
     model = YOLO(model_path)
     return model
